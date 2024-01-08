@@ -1,1 +1,1 @@
-DP=The tag of "Dynamic Programming"
+DP=The tags of "Dynamic Programming"
