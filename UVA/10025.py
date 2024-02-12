@@ -33,10 +33,3 @@ for index in range(get_count):
     ans.append(len(a))
 for get in ans:
     print(get)
-    # default=int((t-goal)/2)
-    # k=0
-    # while sum(a)!=goal:
-    #     if sum(a)-goal/2>=a[-k]:
-    #         a[-k]*=-1
-    #     k+=1
-    # print(a)
