@@ -1,4 +1,3 @@
-# https://cpe.cse.nsysu.edu.tw/cpe/test_data/2022-03-22
 get_input=int(input())
 list_set=[]
 i=1
