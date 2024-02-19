@@ -1,10 +1,10 @@
 dic = {
-    1:'qaz ',
+    1:'qaz',
     2:'wsx' ,
     3:'edc',
     4:'rfvtgb',
-    5:' ',
-    6:' ',
+    5:' ', #space
+    6:' ', #space
     7:'yhnujm',
     8:'ik',
     9:'ol',
