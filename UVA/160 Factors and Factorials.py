@@ -12,7 +12,6 @@ while True:
     get = int(input())
     if get == 0:
         break
-    num = [[1]]
     fL = [0] * len(l)
     ll = []
     for ori in range(2,101):
