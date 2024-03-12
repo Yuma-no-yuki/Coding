@@ -3,9 +3,9 @@ for _ in range(int(input())):
     input()
     n1,n2 = map(int,input().split(' '))
     dic = {}
-    for i in range(n1):
+    for i in range(n1):#使用dic進行樹的建立
         d0,d1 = input().split(' ')
-        if d0[0] in dic.keys():
+        if d0[0] in dic.keys(): 
             l = list(dic[d0[0]])
             l.append(d1[0])
             dic[d0[0]]=l
@@ -28,11 +28,11 @@ for _ in range(int(input())):
                     a2 = k
                     s2 += a2
         count = 0
-        for i in range(min(len(s1), len(s2))): #計算將s1,s2相同元素數量
+        for i in range(min(len(s1), len(s2))): #計算s1&s2相同元素的數量
             if s1[::-1][i] == s2[::-1][i]:
                 count += 1
         s2 = s2[::-1]
-        if count - 1 == 0: #因list中[:-0]時會出錯->需進行判斷
+        if count - 1 == 0: #當list為[:-0]時會出錯->需進行判斷
             ans.append(s1+s2[count:])
         else:
             ans.append(s1[:-(count-1)] + s2[count:])
