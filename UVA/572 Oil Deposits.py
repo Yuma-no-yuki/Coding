@@ -5,8 +5,8 @@ while True:
         break
     n1,n2 = map(int,get.split(' '))
     l = []
-    def search(i,j):
-        if i-1>=0 and l[i-1][j] == "@":
+    def search(i,j): #DFS 
+        if i-1>=0 and l[i-1][j] == "@": #邊界判斷
             l[i - 1][j] = '*'
             search(i-1,j)
         if i+1<=n1-1 and l[i+1][j] == "@":
