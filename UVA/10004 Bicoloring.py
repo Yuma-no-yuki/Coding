@@ -1,4 +1,4 @@
-ans = []
+ans = [] #於Zerojudge運行AC,但UVA運行WA
 while True:
     get = input()
     if get=='0':
