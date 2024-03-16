@@ -1,2 +1,2 @@
 UVA = uva online judge 
- (＆https://cpe.cse.nsysu.edu.tw/cpe/test_data/problems)
+(＆https://cpe.cse.nsysu.edu.tw/cpe/test_data/problems)
