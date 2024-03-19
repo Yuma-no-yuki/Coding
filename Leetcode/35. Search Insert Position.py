@@ -5,5 +5,3 @@ class Solution(object):
         nums.append(target)
         nums = sorted(nums)
         return nums.index(target)
-
-print(Solution().searchInsert([1,3,5,6],2))
