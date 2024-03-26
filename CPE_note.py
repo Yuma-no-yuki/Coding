@@ -27,3 +27,4 @@ int(str or 進制函數 type,int type) ## int type 可為所想轉換的進制
 #16進位轉換
 #print(hex(20)) => 0x14
 #print(int(hex(20),16)) => 20
+
